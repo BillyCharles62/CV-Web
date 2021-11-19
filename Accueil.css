@@ -1,4 +1,10 @@
 
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 
-$box-padding : 1.25rem;
+a {
+    padding-left: 20%;
+}
+
+.profile{
+    padding: 200px;
+}
