@@ -1,10 +1,25 @@
 
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-timeline.min.css";
 
-a {
-    padding-left: 20%;
+.bg-img { 
+    background-image: url(images/DenseYoungCrow-mobile.gif) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+
 }
 
-.profile{
-    padding: 200px;
-}
+#scroll_to_top {
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    bottom: 50px;
+    right: 30px;
+  }
+  #scroll_to_top img {
+    width: 75px;
+  }
+          
